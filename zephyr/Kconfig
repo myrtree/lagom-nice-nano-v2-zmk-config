@@ -1,0 +1,3 @@
+# Kconfig for custom modules
+
+rsource "vcc_power_manager/Kconfig"

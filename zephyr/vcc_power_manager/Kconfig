@@ -1,0 +1,10 @@
+config ZMK_VCC_POWER_MANAGER
+    bool "VCC Power Manager for nice!nano v2"
+    default y
+    depends on BOARD_NICE_NANO_V2
+    depends on USB_DEVICE_STACK
+    depends on GPIO
+    help
+        Automatically control P0.13 to turn off 3.3V VCC power
+        when running on battery. This significantly reduces power
+        consumption from components like OLED displays, RGB LEDs, etc.

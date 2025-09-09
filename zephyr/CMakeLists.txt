@@ -1,0 +1,2 @@
+# Add custom modules
+add_subdirectory_ifdef(CONFIG_ZMK_VCC_POWER_MANAGER vcc_power_manager)
