@@ -61,7 +61,6 @@ RC(4,0) RC(4,1) RC(4,2)         RC(4,4)         RC(4,6)         RC(4,8)         
         compatible = "zmk,ext-power-generic";
         control-gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
         init-delay-ms = <50>;
-        off-on-start;
     };
 };
 
